@@ -23,9 +23,7 @@ main{
     grid-column: span 2;
     flex-direction: row;
     align-items: center;
-    /* padding: 2.3rem 8.5rem; */
     gap: 0.8rem;
-    /* padding-bottom: 23rem; */
 }
 
 
@@ -119,4 +117,78 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 2.3rem;
+}
+
+.regestration_container{
+    padding-top: 8.2rem;
+}
+
+.regestration_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3rem;
+    
+}
+
+.regestration input{
+    font-family: "Noto Sans", "Roboto", sans-serif;
+    font-size: 1.8rem;
+    padding: 2.9rem 2.3rem;
+    border-radius: 1rem;
+    border: none;
+    min-width: 81.8rem;
+}
+
+.form_message{
+    padding-bottom: 14.8rem !important;  
+}
+
+.city{
+    display: flex;
+    flex-direction: row;
+    gap: 2.3rem;
+}
+
+.city input{
+    min-width: 39.7rem;
+}
+
+.regestration_form button{
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 2.5rem 16.7rem;
+    border-radius: 10px;
+    font-size: 2.4rem;
+    margin-top: 5rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+footer{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    text-decoration: none;
+
+}
+
+.p{
+    font-weight: 500;
+}
+
+footer p,a{
+    font-size: 1.8rem;
+    font-weight: 700;
 }
