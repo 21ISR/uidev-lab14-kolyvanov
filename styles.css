@@ -129,38 +129,17 @@ h1 {
     overflow: hidden;
     max-width: 1440px;
     margin-inline: auto;
-    height: 82rem; 
-}
-
-
-.vignette-container_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.vignette-overlay {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: linear-gradient(179.83deg, #000000 -10.38%, rgba(0, 0, 0, 0.67) 48.34%, #000000 107.06%);
-}
-
-/* .vignette-container {
-    position: relative;
-    overflow: hidden;
-    max-width: 1440px;
-    margin-inline: auto;
     height: 82rem;
-    display: flex; /* Добавляем flex для расположения элементов */
-    align-items: center; /* Выравниваем элементы по вертикали */
+    display: flex;
+    align-items: center;
 }
+
 
 .vignette-container_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute; /* Фон делаем абсолютным */
+    position: absolute;
 }
 
 .vignette-overlay {
@@ -170,24 +149,34 @@ h1 {
     background: linear-gradient(179.83deg, #000000 -10.38%, rgba(0, 0, 0, 0.67) 48.34%, #000000 107.06%);
 }
 
-.phone-image {
-    transform: rotate(90deg); /* Поворачиваем телефон на 90 градусов */
-    height: 80%; /* Подбираем подходящую высоту */
-    max-height: 800px; /* Максимальная высота */
+.phone-image{
+    transform: rotate(90deg);
     position: relative;
     z-index: 2;
-    left: -25%; /* Сдвигаем влево так, чтобы половина была скрыта */
-    margin-right: -20%; /* Компенсируем сдвиг для текста */
+    left: -14%;
+    margin-right: -20%;
 }
 
-.text-content {
-    width: 50%; /* Текст занимает половину контейнера */
-    padding: 2rem;
-    position: relative;
+.text-content{
+    min-width: 32.4rem;
+    padding-right: 10rem;
     z-index: 2;
-    color: white; /* Предполагая, что текст должен быть белым на темном фоне */
-    margin-left: auto; /* Текст прижимаем к правому краю */
-} */
+    color: #ffffff;
+    margin-left: auto;  
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.text-content h2{
+    font-size: 5.2rem;
+    text-align: start;
+}
+
+.text-content p{
+    font-size: 1.8rem;
+    min-width: 32.4rem;
+}
 
 h2{
     text-align: center;
@@ -272,6 +261,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 8.5rem 10rem;
 }
 
 .links{
