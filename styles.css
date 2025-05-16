@@ -289,32 +289,46 @@ footer p,a{
     }
 
     main{
-        padding: 4rem 1.5rem;
+        padding: 0;
 }
 
+    
+
     .platform-content{
-        max-width: 375px;
+        gap: 2.8rem;
+        align-items: center;
+        overflow: hidden;
     }
 
     .platform-text{
         max-width: 24rem;
         max-height: 8.8rem;
         gap: 2.4rem;
+        padding-left: 1.5rem;
+        align-items: normal;
     }
 
     .platform-text p{
         display: block;
-        padding: 0;
         min-width: 24rem;
+        padding: 0;
     }
 
     .logo{
-        max-width: 5rem;
+        max-width: 10rem;
         height: auto;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+        gap: 0.4rem;
+    }
+
+    .logo img{
+        max-width: 5rem;
     }
 
     h1{
         font-size: 3.2rem;
+        padding: 0;
     }
 
     h2{
@@ -373,4 +387,67 @@ footer p,a{
         justify-content: center;
         align-items: center;
     }
+
+    .phone{
+        min-width: 17.4rem;
+    }
+
+    .gradient{
+        width: 34.9rem;
+        height: 34.9rem; 
+        top: -10%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-16.7deg);
+    }
+
+    .platform{
+        max-width: 375px;
+        /* margin-bottom: 32.2rem; */
+    }
+
+    .vignette-container {
+        max-width: 375px;
+        height: 667px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        overflow: visible;
+    }
+
+    .vignette-container_img {
+        height: 26.3rem;
+        object-position: center bottom; 
+    }
+    .text-content {
+        min-width: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        gap: 1.5rem;
+        order: 1;
+        top: -29%;
+        position: absolute;
+    }
+
+    .text-content h2 {
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+
+    .text-content p {
+        font-size: 1.6rem;
+        min-width: 0;
+        /* line-height: 1.5; */
+    }
+
+    .phone-image {
+        transform: rotate(0deg); 
+        position: absolute;
+        left: 0%;
+        bottom: 0rem; 
+        margin: 0;
+        z-index: 3;
+        order: 2; 
+    }
 }
+
