@@ -281,3 +281,96 @@ footer p,a{
     font-size: 1.8rem;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 375px){
+    .html{
+        font-size: 62.5%;
+    }
+
+    main{
+        padding: 4rem 1.5rem;
+}
+
+    .platform-content{
+        max-width: 375px;
+    }
+
+    .platform-text{
+        max-width: 24rem;
+        max-height: 8.8rem;
+        gap: 2.4rem;
+    }
+
+    .platform-text p{
+        display: block;
+        padding: 0;
+        min-width: 24rem;
+    }
+
+    .logo{
+        max-width: 5rem;
+        height: auto;
+    }
+
+    h1{
+        font-size: 3.2rem;
+    }
+
+    h2{
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+
+    .platform-text p::before{
+        display: none;
+    }
+
+    .regestration{
+        max-width: 375px;
+    }
+
+    .regestration_text{
+        max-width: 32.3rem;
+    }
+
+    .regestration_text br{
+        display: none;
+    }
+
+    .regestration_form{
+        gap: 1.6rem;
+    }
+
+    .regestration input{
+        min-width: 34.5rem;
+        font-size: 1.6rem;
+    }
+
+    .city{
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .regestration_form button{
+        max-width: 34.5rem;
+        text-align: center;
+        padding: 2.5rem 14rem;
+
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        gap: 2.6rem;
+        padding: 8.3rem;
+    }
+
+    .links{
+        gap: 1.7rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
