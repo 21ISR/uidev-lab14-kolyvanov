@@ -13,7 +13,7 @@ body {
 }
 
 main{
-    padding: 0.28rem 10rem;
+    
 
 }
 
@@ -46,6 +46,12 @@ main{
     align-items: center;
     gap: 12.7rem;
     
+}
+
+.platform{
+    overflow: hidden;
+    width: 100%;
+    /* padding: 0.28rem 10rem; */
 }
 
 p{
@@ -292,7 +298,6 @@ footer p,a{
         padding: 0;
 }
 
-    
 
     .platform-content{
         gap: 2.8rem;
@@ -402,7 +407,7 @@ footer p,a{
 
     .platform{
         max-width: 375px;
-        /* margin-bottom: 32.2rem; */
+        margin-bottom: 10rem;
     }
 
     .vignette-container {
@@ -423,10 +428,12 @@ footer p,a{
         width: 90%;
         margin: 0 auto;
         padding: 0;
+        padding-left: 1.5rem;
         gap: 1.5rem;
         order: 1;
         top: -29%;
         position: absolute;
+
     }
 
     .text-content h2 {
@@ -437,7 +444,6 @@ footer p,a{
     .text-content p {
         font-size: 1.6rem;
         min-width: 0;
-        /* line-height: 1.5; */
     }
 
     .phone-image {
